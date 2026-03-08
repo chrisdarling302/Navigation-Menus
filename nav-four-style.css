@@ -61,6 +61,7 @@ nav {
 .nav__row {
   display: flex;
   justify-content: space-between;
+  alighn-items: center;
 }
 
 .nav__logo {
@@ -133,26 +134,28 @@ a:hover {
 
 /* Mobile Menu */
 
+/* Mobile Menu */
+
 .btn__menu {
   background-color: transparent;
-  font-size: 18px;
-  text-align: center;
+  font-size: 24px;
   color: #6415ff;
-  display: none;
   border: none;
-  display: none;
   cursor: pointer;
+  padding: 8px;
+  display: none;
 }
 
 .btn__menu--close {
   position: fixed;
-  right: 0;
-  top: 10px;
+  right: 18px;
+  top: 18px;
   padding: 14px;
-  font-size: 18px;
+  font-size: 24px;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  color: #6415ff;
 }
 
 .menu__backdrop {
@@ -216,6 +219,7 @@ a:hover {
   transition: all 300ms ease;
   border-radius: 9999px;
 }
+
 
 /* end mobile menu */
 
